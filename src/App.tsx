@@ -75,14 +75,6 @@ function App() {
               }
             />
           </label>{" "}
-          <div className="grid mt-4 gap-4 ">
-            <p className="font-extralight pl-2">entity color: </p>
-            <div className="gap-4 flex ">
-              <p className="entitas HALAL">halal</p>{" "}
-              <p className="entitas syubhat">syubhat</p>{" "}
-              <p className="entitas haram">haram</p>
-            </div>
-          </div>
         </div>
         <div className="w-1/2 invisible md:visible">
           <div className=" flex items-center  justify-center px-16 bg-transparent">
@@ -100,13 +92,23 @@ function App() {
             </div>
           </div>
         </div>
+      </div>{" "}
+      <div className="grid mt-4 gap-4 w-full  ">
+        <p className="font-extralight pl-2 text-center">
+          Entity Color Indicator:{" "}
+        </p>
+        <div className="gap-4 flex justify-center">
+          <p className="entitas HALAL">halal</p>{" "}
+          <p className="entitas syubhat">syubhat</p>{" "}
+          <p className="entitas haram">haram</p>
+        </div>
       </div>
-      <div className="w-full flex flex-col md:flex-row  justify-center mx-auto px-8 mt-12  pb-8">
+      <div className="w-full flex flex-col md:flex-row  justify-center mx-auto px-8 mt-4  pb-8">
         <div className="w-full md:w-1/2 justify-center flex">
           <img
             src={data ? URL.createObjectURL(data) : "https://default-image.jpg"}
             alt=""
-            className="w-2/3 self-start mt-20"
+            className="w-2/3 self-start mt-14"
           />
         </div>
         <div className="w-full md:w-1/2   ">
