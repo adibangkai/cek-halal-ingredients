@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
+
+.entitas {
+  display: inline-block;
+  padding: 1.3em 3em;
+  font-size: 12px;
+  text-transform: capitalize;
+  font-weight: 500;
+  margin: 0.2em;
+  color: #fff;
+  background-color: #909090;
+  border-radius: 45px;
+  cursor: pointer;
+  outline: none;
+}
+
+.HALAL {
+  background-color: #54bab9;
+  padding: 1em 1em;
+}
+
+.haram {
+  background-color: #f54e5f;
+  padding: 1em 1em;
+}
+.lainya {
+  background-color: #03506f;
+  padding: 1em 1em;
+}
+
+.syubhat {
+  color: #3a3a3a;
+  background-color: #ebc990;
+  padding: 1em 1em;
+}
