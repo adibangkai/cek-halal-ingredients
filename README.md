@@ -4,6 +4,7 @@ Application designed to help muslims to identify haram ingredients in their food
 
 model : https://github.com/adibangkai/ner-halal-entities
 
+deployed on : https://scan-halal-ingredients.vercel.app/
 ## Upload Page
 ![Screen Shot 2023-04-09 at 9 46 01 PM](https://user-images.githubusercontent.com/10493030/230780442-0ca4bf4a-f878-41dd-aa0b-b3e27885f48a.png)
 
