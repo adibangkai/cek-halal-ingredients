@@ -29,13 +29,10 @@ function App() {
     setData(e);
     setIsPending(true);
 
-    const res = await fetch(
-      "https://cek-komposisi-halal.onrender.com/api/extract" as string,
-      {
-        method: "POST",
-        body: formData,
-      }
-    );
+    const res = await fetch("http://127.0.0.1:5000/api/extract" as string, {
+      method: "POST",
+      body: formData,
+    });
     const hasil = await res.json();
     setIsPending(false);
     setIngre(hasil);
